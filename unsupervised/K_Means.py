@@ -6,6 +6,7 @@ class K_Means:
         self.X=X
         self.K=K
         self.max_iters=max_iters
+        np.random.seed(123)
     
     def fit(self,X,K,max_iters):
         self.X=X
